@@ -1,0 +1,28 @@
+.tes {
+    background-color: azure;
+    padding: 5%;
+}
+
+#tes {
+    color: blueviolet;
+    background-color: crimson;
+    padding: 5%;
+}
+
+.font_1 {
+    color: blueviolet;
+    text-align: justify;
+    font-style: italic;
+    font: larger;
+}
+
+.font_2 {
+    color: grey;
+    ;
+    text-align: justify;
+}
+
+#latar {
+    background-color: lightyellow;
+    ;
+}
