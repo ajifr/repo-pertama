@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>
+
+    </title>
+</head>
+
+<body>
+    <div>Object Oriented Program</div>
+    <script>
+        class People {
+            //konstruktor
+            constructor(fullname, age, gender) {
+                this.fullname = fullname
+                this.age = age
+                this.gender = gender
+            }
+
+            //Getter
+            get myAge() {
+                return this.age
+            }
+
+            //Setter
+            set myAge(newAge) {
+                return this._age = newAge
+            }
+
+            Hello() {
+                alert(`Hai Nama ku ${this.fullname} dan Usia ku ${this._age}`)
+            }
+        }
+
+        // //Child Method from People
+        class Teacher extends People {
+            constructor(subject, fullname, age, gender) {
+                super(fullname, age, gender)
+                this.subject = subject
+            }
+
+            //     //Method Overwrite
+            hello() {
+                alert(`Hai Aku adalah seorang Guru, Nama ku ${this.fullname}`)
+            }
+        }
+    </script>
+
+</body>
+
+</html>
