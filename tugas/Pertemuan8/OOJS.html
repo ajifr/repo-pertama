@@ -11,7 +11,7 @@
     <script>
         class People {
             //konstruktor
-            Constructor(fullname, age, gender) {
+            constructor(fullname, age, gender) {
                 this.fullname = fullname
                 this.age = age
                 this.gender = gender
@@ -33,17 +33,17 @@
         }
 
         // //Child Method from People
-        // class Teacher extends People {
-        //     Constructor(subject, fullname, age, gender) {
-        //         super(fullname, age, gender)
-        //         this.subject = subject
-        //     }
+        class Teacher extends People {
+            constructor(subject, fullname, age, gender) {
+                super(fullname, age, gender)
+                this.subject = subject
+            }
 
-        //     //Method Overwrite
-        //     Hello() {
-        //         alert(`Hai Aku adalah seorang Guru, Nama ku ${this.fullname}`)
-        //     }
-        // }
+            //     //Method Overwrite
+            hello() {
+                alert(`Hai Aku adalah seorang Guru, Nama ku ${this.fullname}`)
+            }
+        }
     </script>
 
 </body>
