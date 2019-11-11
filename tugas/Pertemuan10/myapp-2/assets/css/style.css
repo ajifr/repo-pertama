@@ -1,0 +1,11 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    background-color: brown;
+    padding: 50px;
+}
+
+#tulisan {
+    font-style: italic;
+    color: white;
+}
